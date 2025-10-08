@@ -1,0 +1,577 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.pricipioDePagina{
+    background-color: antiquewhite;
+    
+}
+.principio{
+    display: flex;
+    padding: 20px;
+    margin-bottom: 5px;
+}
+.main{
+    background-color:rgb(185, 183, 183) ;    
+}
+h1{
+    color:rgb(2, 46, 46);
+    text-align: left;
+    text-decoration: underline;
+    padding: 45px;
+    margin-bottom: 20px;
+    
+}
+.cabezara{
+    
+    display: flex;
+    gap: 20px;
+    color: black;
+    padding: 20px;
+    margin-bottom: 20px;
+  
+    
+}
+.vinculo{
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    text-align: center;
+
+}
+.contenedor1{
+    
+    gap: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.titulo{
+    text-decoration: underline;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.titulo2{
+    text-decoration: underline;
+    text-align: left;
+    padding: 5px;
+    margin-bottom: 5px;
+
+}
+.parrafo{
+    text-align: justify;
+    text-align-last: left;
+}
+.listaMediciones{
+    text-align: justify;
+    padding: 10px;
+    margin-bottom: 5px;
+    
+}
+.listasOrdenadas{
+    text-align: justify;
+    padding: 10px;
+    margin-bottom: 5px;
+
+}
+.dentroDeListas{
+    padding: 10px;
+    margin-bottom: 5px;
+
+}
+.h3{
+    padding: 5px;
+    margin-bottom: 5px;
+    color: black;
+    text-decoration: underline;
+
+}
+.h4{
+    padding: 10px;
+    margin-bottom: 5px;
+    color: black;
+}
+.piedePagina{
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: black;
+    background-color: aquamarine;
+}
+.videos{
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    text-align: center;
+}
+.contastos{
+    text-align: left;
+    padding: 15px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+.formulario{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    border: 1px solid #333;
+}
+@media(min-width: 576px){
+    
+    .pricipioDePagina{
+        background-color: antiquewhite;
+        
+    }
+    .principio{
+        display: flex;
+        padding: 20px;
+        margin-bottom: 5px;
+    }
+    .main{
+        background-color:rgb(185, 183, 183) ;    
+    }
+    .h1{
+        color:rgb(2, 46, 46);
+        text-align: left;
+        text-decoration: underline;
+        padding: 45px;
+        margin-bottom: 20px;
+        
+    }
+    .cabezara{
+        
+        display: flex;
+        gap: 20px;
+        color: black;
+        padding: 20px;
+        margin-bottom: 20px;
+    
+        
+    }
+    .vinculo{
+        display: flex;
+        gap: 10px;
+        padding: 20px;
+        margin-bottom: 20px;
+        text-decoration: underline;
+        text-align: center;
+
+    }
+    .contenedor1{
+        
+        gap: 10px;
+        padding: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .titulo{
+        text-decoration: underline;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    .titulo2{
+        text-decoration: underline;
+        text-align: left;
+        padding: 5px;
+        margin-bottom: 5px;
+
+    }
+    .parrafo{
+        text-align: justify;
+        text-align-last: left;
+    }
+    .listaMediciones{
+        text-align: justify;
+        padding: 10px;
+        margin-bottom: 5px;
+        
+    }
+    .listasOrdenadas{
+        text-align: justify;
+        padding: 10px;
+        margin-bottom: 5px;
+
+    }
+    .dentroDeListas{
+        padding: 10px;
+        margin-bottom: 5px;
+
+    }
+    .h3{
+        padding: 5px;
+        margin-bottom: 5px;
+        color: black;
+        text-decoration: underline;
+
+    }
+    .h4{
+        padding: 10px;
+        margin-bottom: 5px;
+        color: black;
+    }
+    .piedePagina{
+        text-align: center;
+        padding: 20px;
+        margin-bottom: 20px;
+        color: black;
+        background-color: aquamarine;
+    }
+    .videos{
+        display: flex;
+        gap: 10px;
+        padding: 20px;
+        margin-bottom: 20px;
+        text-decoration: underline;
+        text-align: center;
+    }
+    .contastos{
+        text-align: left;
+        padding: 15px;
+        margin-bottom: 10px;
+        text-decoration: underline;
+    }
+    .formulario{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        border: 1px solid #333;
+    }
+
+    .pricipioDePagina{
+        background-color: antiquewhite;
+    }
+    .vinculo{
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    text-align: center;
+    }
+    .titulo{
+    text-decoration: underline;
+    padding: 10px;
+    margin-bottom: 10px;
+    }
+    .parrafo{
+         text-align: justify;
+        text-align-last: left;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .listaMediciones{
+    text-align: justify;
+    padding: 10px;
+    margin-bottom: 5px;    
+    }
+     .izquierda{
+        text-align: left;
+    }
+}
+
+@media(min-width:577px){
+    .vinculo{
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    text-align: center;
+    }
+    .titulo{
+    text-decoration: underline;
+    padding: 10px;
+    margin-bottom: 10px;
+    }
+    .parrafo{
+     text-align: justify;
+        text-align-last: left;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .listaMediciones{
+    text-align: justify;
+    padding: 10px;
+    margin-bottom: 5px;   
+    }
+    .izquierda{
+        text-align: left;
+  
+    }
+    .pricipioDePagina{
+        background-color: antiquewhite;
+        
+    }
+    .principio{
+        display: flex;
+        padding: 20px;
+        margin-bottom: 5px;
+    }
+    .main{
+        background-color:rgb(185, 183, 183) ;    
+    }
+    .h1{
+        color:rgb(2, 46, 46);
+        text-align: left;
+        text-decoration: underline;
+        padding: 45px;
+        margin-bottom: 20px;
+        
+    }
+    .cabezara{
+        
+        display: flex;
+        gap: 20px;
+        color: black;
+        padding: 20px;
+        margin-bottom: 20px;
+   
+    }
+    .vinculo{
+        display: flex;
+        gap: 10px;
+        padding: 20px;
+        margin-bottom: 20px;
+        text-decoration: underline;
+        text-align: center;
+
+    }
+    .contenedor1{
+        
+        gap: 10px;
+        padding: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .titulo{
+        text-decoration: underline;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    .titulo2{
+        text-decoration: underline;
+        text-align: left;
+        padding: 5px;
+        margin-bottom: 5px;
+
+    }
+    .parrafo{
+        text-align: justify;
+        text-align-last: left;
+    }
+    .listaMediciones{
+        text-align: justify;
+        padding: 10px;
+        margin-bottom: 5px;
+        
+    }
+    .listasOrdenadas{
+        text-align: justify;
+        padding: 10px;
+        margin-bottom: 5px;
+
+    }
+    .dentroDeListas{
+        padding: 10px;
+        margin-bottom: 5px;
+
+    }
+    .h3{
+        padding: 5px;
+        margin-bottom: 5px;
+        color: black;
+        text-decoration: underline;
+
+    }
+    .h4{
+        padding: 10px;
+        margin-bottom: 5px;
+        color: black;
+    }
+    .piedePagina{
+        text-align: center;
+        padding: 20px;
+        margin-bottom: 20px;
+        color: black;
+        background-color: aquamarine;
+    }
+    .videos{
+        display: flex;
+        gap: 10px;
+        padding: 20px;
+        margin-bottom: 20px;
+        text-decoration: underline;
+        text-align: center;
+    }
+    .contastos{
+        text-align: left;
+        padding: 15px;
+        margin-bottom: 10px;
+        text-decoration: underline;
+    }
+    .formulario{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        border: 1px solid #333;
+    }
+}
+@media(min-width:769px){
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    }
+.pricipioDePagina{
+     background-color: antiquewhite;
+    
+}
+.principio{
+    display: flex;
+    padding: 20px;
+    margin-bottom: 5px;
+}
+.main{
+    background-color:rgb(185, 183, 183) ;    
+}
+h1{
+    color:rgb(2, 46, 46);
+    text-align: left;
+    text-decoration: underline;
+    padding: 45px;
+    margin-bottom: 20px;
+    
+}
+.cabezara{
+    
+    display: flex;
+    gap: 20px;
+    color: black;
+    padding: 20px;
+    margin-bottom: 20px;
+  
+    
+}
+.vinculo{
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    text-align: center;
+
+}
+.contenedor1{
+    
+    gap: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.titulo{
+    text-decoration: underline;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.titulo2{
+    text-decoration: underline;
+    text-align: left;
+    padding: 5px;
+    margin-bottom: 5px;
+
+}
+.parrafo{
+    text-align: justify;
+    text-align-last: left;
+}
+.listaMediciones{
+    text-align: justify;
+    padding: 10px;
+    margin-bottom: 5px;
+    
+}
+.listasOrdenadas{
+    text-align: justify;
+    padding: 10px;
+    margin-bottom: 5px;
+
+}
+.dentroDeListas{
+    padding: 10px;
+    margin-bottom: 5px;
+
+}
+.h3{
+    padding: 5px;
+    margin-bottom: 5px;
+    color: black;
+    text-decoration: underline;
+
+}
+.h4{
+    padding: 10px;
+    margin-bottom: 5px;
+    color: black;
+}
+.piedePagina{
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: black;
+    background-color: aquamarine;
+}
+.videos{
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    text-align: center;
+}
+.contastos{
+    text-align: left;
+    padding: 15px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+.formulario{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    border: 1px solid #333;
+}  
+    
+    .vinculo{
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    text-align: center;
+    }
+    .titulo{
+    text-decoration: underline;
+    padding: 10px;
+    margin-bottom: 10px;
+    }
+    .parrafo{
+        text-align: justify;
+        text-align-last: left;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .listaMediciones{
+    text-align: justify;
+    padding: 10px;
+    margin-bottom: 5px;   
+    }
+    .izquierda{
+        text-align: left;
+    }
+
+}
